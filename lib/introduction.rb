@@ -22,12 +22,13 @@ introduction_with_language("Josh", "React")
 
 
 #Method takes in/uses Optional Arguments
-def introduction_with_language_optional(name, language)
+def introduction_with_language_optional(name="Josh", language="React")
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
   
-introduction_with_language_optional("Josh", "React")
-
+introduction_with_language_optional
+introduction_with_language_optional("Josh")
+introduction_with_language_optional("Dan", "Ember.js")
   
 
 
